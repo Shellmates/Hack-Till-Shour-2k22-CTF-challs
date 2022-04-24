@@ -1,0 +1,32 @@
+name: "Ecology"
+
+author: "Muhammad"
+author_link: "https://github.com/muhammedBkf"
+
+category: web
+
+description: |
+  > I have a secret hidden in this app but only admins can see it.  
+
+  **Author** : Muhammad
+
+difficulty: ezmed
+
+connection_info: http://ecology.web.ctf.shellmates.club
+
+flags:
+  - shellmates{Pr0T0TyP3_p0lLU710N_c4n_B3_V3Ry_d4n93r0U2}
+
+files:
+  - ./server.js
+
+# DO NOT CHANGE
+#
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 50
+    minimum: 50
+state: hidden
+version: "0.1"

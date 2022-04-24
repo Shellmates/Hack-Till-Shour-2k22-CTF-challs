@@ -1,0 +1,33 @@
+name: "My_boundries"
+author: "1m4D"
+author_link: "https://github.com/imadbourouche"
+
+category: pwn
+
+difficulty: easy
+
+description: |
+  > Can you go out of my boundries  
+
+  **Author** : 1m4D
+
+flags:
+  - shellmates{alW4y5_Ch3Ck_Y0ur_B0unDr1E5}
+
+connection_info: nc -v pwn.ctf.shellmates.club 1500
+
+files:
+  - ./src/challenge.c
+
+value: 500
+
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 50
+    minimum: 50
+
+state: hidden
+
+version: "0.1"

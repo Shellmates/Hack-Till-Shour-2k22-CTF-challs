@@ -1,0 +1,33 @@
+name: "Easy_jail_1"
+author: "1m4D"
+author_link: "https://github.com/imadbourouche"
+
+category: misc
+
+difficulty: easy
+
+description: |
+  > Can you get the flag !  
+
+  **Author** : 1m4D
+
+flags:
+  - shellmates{1npuT_FuncT1on_C4n_R34D_V4r14Bl35}
+
+connection_info: nc -v misc.ctf.shellmates.club 1303
+
+files:
+  - ./src/script.py
+
+value: 500
+
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 50
+    minimum: 50
+
+state: hidden
+
+version: "0.1"

@@ -1,0 +1,16 @@
+{
+  "name": "ecology",
+  "version": "1.0.0",
+  "description": "Ecology",
+  "main": "app.js",
+  "author": "Bl4ckBe4rd",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}

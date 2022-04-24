@@ -1,0 +1,31 @@
+name: "Weird PY"
+author: "ouxs"
+
+category: misc
+
+description: |
+  > Continuing my road to discover the weirdness of programming languages  
+  > Python your time has come.  
+
+  **Author** : ouxs
+
+difficulty: easy
+
+connection_info: nc -v misc.ctf.shellmates.club 1301
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+
+flags: 
+  - shellmates{Le4k_V4r5_AAS_Has_jusT_STaRteD!_73298473204632}
+
+files:
+  - challenge/fake.py
+
+state: hidden
+
+version: "0.1"

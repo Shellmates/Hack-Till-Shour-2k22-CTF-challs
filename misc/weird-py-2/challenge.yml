@@ -1,0 +1,31 @@
+name: "Weird PY 2"
+author: "ouxs"
+
+category: misc
+
+description: |
+  > Last time I made a mistake, it was simple.  
+  > Now you will see the real weirdness.  
+
+  **Author** : ouxs
+
+difficulty: medhard
+
+connection_info: nc -v misc.ctf.shellmates.club 1302
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+
+flags: 
+  - shellmates{Th0s3_UNIC0D3_C0mplety_Ruin3d_IT}
+
+files:
+  - challenge/chall.py
+
+state: hidden
+
+version: "0.1"

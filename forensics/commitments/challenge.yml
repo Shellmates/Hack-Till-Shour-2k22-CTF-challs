@@ -1,0 +1,33 @@
+name: "commitments"
+
+author: "Muhammad"
+
+author_link: "https://github.com/muhammedBkf"
+
+category: forensics
+
+difficulty: easy
+
+description: |
+  > We added this simple bot to our discord server, but after uploading it to github, we found that some private messages had leaked.  
+  > Can you figure out what we did wrong?  
+
+  **Author** : Muhammad
+
+flags:
+  - shellmates{N3v3r_4dD_Y0UR_53cr37_70_7H3_C0Mmi7s}
+
+files:
+  - commitments.zip
+
+
+# DO NOT CHANGE
+#
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 50
+    minimum: 50
+state: hidden
+version: "0.1"

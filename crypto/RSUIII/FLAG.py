@@ -1,0 +1,1 @@
+flag = b'shellmates{Y0u_SH0UldnT_me$$_wiTH_r$A}'

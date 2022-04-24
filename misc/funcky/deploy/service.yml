@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: funcky
+  labels:
+    category: misc
+    challenge: funcky
+spec:
+  type: NodePort
+  selector:
+    category: misc
+    challenge: funcky
+  ports:
+    - port: 1337
+      name: tcp
+      targetPort: 1337
+      nodePort: 30300

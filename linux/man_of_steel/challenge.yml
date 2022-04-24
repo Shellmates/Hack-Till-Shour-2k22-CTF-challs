@@ -1,0 +1,31 @@
+name: "man of steel"
+
+author: "1m4D"
+
+category: linux
+
+difficulty: easy
+
+description: |
+  > Be a good man.  
+
+  **Password** : ctf  
+  **Author** : 1m4D
+
+connection_info: ssh -p 1200 ctf@linux.ctf.shellmates.club
+
+flags:
+  - shellmates{Man_p4ge5_C4n_B3_Us3Fu1}
+
+value: 500
+
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 50
+    minimum: 50
+
+state: hidden
+
+version: "0.1"

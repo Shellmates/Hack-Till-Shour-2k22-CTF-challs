@@ -1,0 +1,31 @@
+name: "png"
+
+author: "Muhammad"
+
+author_link: "https://github.com/muhammedBkf"
+
+category: linux
+
+difficulty: easy
+
+description: |
+  > It looks like the image on the server is hiding something.  
+  
+  **Author** : Muhammad
+
+connection_info: nc -v linux.ctf.shellmates.club 1201
+
+flags:
+  - shellmates{yes_it_was_just_an_image}
+
+
+# DO NOT CHANGE
+#
+value: 500
+type: dynamic
+extra:
+    initial: 500
+    decay: 50
+    minimum: 50
+state: hidden
+version: "0.1"

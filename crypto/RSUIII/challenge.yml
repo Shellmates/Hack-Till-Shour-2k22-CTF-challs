@@ -1,0 +1,26 @@
+name: "RSUIII"
+author: "abdelmaoo"
+author_link: "https://github.com/abdelmaoo"
+category: crypto
+difficulty: medium
+description: |
+  > You really shouldn't mess with RSA, can you recover the flag?  
+  **Author** : abdelmaoo 
+flags:
+  - shellmates{Y0u_SH0UldnT_me$$_wiTH_r$A}
+
+files:
+  - ./chall.py
+  - ./out.txt
+
+value: 500
+
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 50
+    minimum: 50
+
+state: hidden
+version: "0.1"

@@ -1,0 +1,29 @@
+name: "PYtes"
+author: "ouxs"
+
+category: reverse
+
+description: |
+  > We found this mysterious file alongside this program but can't find the connection.  
+  
+  **Author** : ouxs
+
+difficulty: medium
+
+value: 500
+type: dynamic
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+
+flags: 
+  - shellmates{R3verSin9_Py7h0n_Is_Such_4_Bl3ss}
+
+files:
+  - challenge/chall
+  - challenge/out.bin
+
+state: hidden
+
+version: "0.1"

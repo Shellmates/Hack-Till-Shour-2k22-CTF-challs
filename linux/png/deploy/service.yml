@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: png
+  labels:
+    category: linux
+    challenge: png
+spec:
+  type: NodePort
+  selector:
+    category: linux
+    challenge: png
+  ports:
+    - port: 1337
+      name: tcp
+      targetPort: 1337
+      nodePort: 30201

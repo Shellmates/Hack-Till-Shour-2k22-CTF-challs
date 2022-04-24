@@ -1,0 +1,26 @@
+name: "kawarimi no cipher"
+author: "abdelmaoo"
+author_link: "https://github.com/abdelmaoo"
+category: crypto
+difficulty: ezmed
+description: |
+  > We intercepted this message but it appears that it's encripted using some ninja techniques, can you help us recover the flag.  
+  > Flag format: SHELLMATES{.*}
+  **Author** : abdelmaoo 
+flags:
+  - SHELLMATES{LYNOS_TROVOLTOS_IS_SOVIET_NINJA_HAXKER}
+
+files:
+  - ./message.txt
+
+value: 500
+
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 50
+    minimum: 50
+
+state: hidden
+version: "0.1"

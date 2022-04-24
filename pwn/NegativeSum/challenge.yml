@@ -1,0 +1,34 @@
+name: "NegativeSum"
+author: "1m4D"
+author_link: "https://github.com/imadbourouche"
+
+category: pwn
+
+difficulty: medium
+
+description: |
+  > We learned that the sum of two positives gives a positive.  
+  > This rule is no longer valid here  
+
+  **Author** : 1m4D
+
+flags:
+  - shellmates{1_10v3_1nt3ger_0v3rF10w}
+
+connection_info: nc -v pwn.ctf.shellmates.club 1501
+
+files:
+  - ./src/challenge.c
+
+value: 500
+
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 50
+    minimum: 50
+
+state: hidden
+
+version: "0.1"

@@ -1,0 +1,30 @@
+name: "FaaS"
+author: "chenx3n"
+author_link: "https://github.com/malikDaCoda"
+
+category: web
+difficulty: easy
+
+description: |
+  > Presenting to you: Figlet as a Service!  
+
+  **Author :** chenx3n
+
+connection_info: http://faas.web.ctf.shellmates.club
+
+image: gcr.io/glowing-reserve-336013/faas
+
+value: 500
+type: dynamic
+
+extra:
+  initial: 500
+  decay: 50
+  minimum: 50
+
+flags:
+  - shellmates{c0Mm4nd_INjeCtI0n_fTW}
+
+state: hidden
+
+version: "0.1"

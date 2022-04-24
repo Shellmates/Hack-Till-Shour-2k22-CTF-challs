@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: faas
+  labels:
+    category: web
+    challenge: faas
+spec:
+  type: NodePort
+  selector:
+    category: web
+    challenge: faas
+  ports:
+    - port: 80
+      name: http
+      targetPort: 80
+      nodePort: 30702

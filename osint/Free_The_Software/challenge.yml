@@ -1,0 +1,29 @@
+name: "Free The Software"
+author: "abdelmaoo"
+author_link: "https://github.com/abdelmaoo"
+category: osint
+difficulty: easy
+description: |
+  > Join us now and share the software, you'll be free.  
+  > Do you know what's the free software anthem ?  
+
+  **Author** : abdelmaoo 
+
+hints:
+  - https://www.gnu.org/music/;
+  - Don't look Up;
+
+flags:
+  - shellmates{Y0u_sH0uld_Us3_fr33_S0ftw4r3_} 
+
+value: 500
+
+type: dynamic
+
+extra:
+    initial: 500
+    decay: 50
+    minimum: 50
+
+state: hidden
+version: "0.1"

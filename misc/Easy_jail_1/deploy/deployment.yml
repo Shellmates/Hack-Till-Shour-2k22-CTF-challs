@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: easy-jail-1
+  labels:
+    category: misc
+    challenge: easy-jail-1
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      category: misc
+      challenge: easy-jail-1
+  template:
+    metadata:
+      labels:
+        category: misc
+        challenge: easy-jail-1
+    spec:
+      enableServiceLinks: false
+      automountServiceAccountToken: false
+      containers:
+      - name: server
+        image: gcr.io/glowing-reserve-336013/easy-jail-1
+        resources:
+          limits:
+            cpu: 100m
+            memory: 50Mi
+          requests:
+            cpu: 10m
+            memory: 30Mi
+        ports:
+        - containerPort: 1337
+          name: tcp
+        livenessProbe:
+          tcpSocket:
+            port: tcp
+          initialDelaySeconds: 3
+          periodSeconds: 30
