@@ -3,7 +3,7 @@
 from sys import exit
 
 BAD = "0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ \t\n\r\x0b\x0c"
-Flag = "shellmates{XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX}"
+Flag = "shellmates{Th0s3_UNIC0D3_C0mplety_Ruin3d_IT}"
 
 if __name__ == "__main__":
     print("---- show_variables_AAS - Everything is a service now ----\n\n")

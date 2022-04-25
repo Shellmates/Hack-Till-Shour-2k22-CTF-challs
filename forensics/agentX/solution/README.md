@@ -1,4 +1,4 @@
-# Challenge name
+# AgentX
 
 ## Write-up
 

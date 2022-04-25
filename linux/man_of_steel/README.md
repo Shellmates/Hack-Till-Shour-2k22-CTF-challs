@@ -1,4 +1,4 @@
-# maa man
+# man of steel
 
 **`Author:`** [1m4D](https://github.com/imadbourouche)
 

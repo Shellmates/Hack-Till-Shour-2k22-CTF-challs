@@ -1,4 +1,4 @@
-# Challenge Name
+# Bytes
 
 **`Author:`** [Chih3b](https://github.com/Ch1h3b)
 

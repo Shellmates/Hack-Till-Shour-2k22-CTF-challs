@@ -1,4 +1,4 @@
-# Challenge name
+# Bytes
 
 ## Write-up
 
